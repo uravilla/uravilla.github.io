@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ushmitha Ravilla - Resume</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/experience.css">
+  <link rel="stylesheet" href="styles/skills.css">
+  <link rel="stylesheet" href="styles/tabView.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <script src="content-data.js" defer></script>
+  <script src="content.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">
+        <div class="logo-symbol">U</div>
+        <div class="logo-text">Ushmitha <span>Ravilla</span> </div>
+      </div>
+      <nav class="main-nav">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </nav>
+      <div class="bars">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
+    <div class="pages">
+      <!-- About Page -->
+      <div class="page about-page" id="about">
+        <div class="pic">
+          <img src="./resources/Ushmitha_Ravilla.JPG" alt="Ushmitha Ravilla" title="Ushmitha Ravilla" />
+        </div>
+        <div class="about">
+          <div class="name">Ushmitha Ravilla</div>
+          <div class="paragraph">
+            <p>Software Development Engineer with more than three years of experience in the industry.
+              Enthusiastic team player, a fast learner with creative problem-solving skills,
+              and good coding and communication skills. My professional interests include Software
+              Application Design and development, Web Development, and Research.</p>
+          </div>
+          <div class="buttons">
+            <a href="./resources/Ushmitha_Ravilla_Resume.pdf" target="_blank" download>
+              <button class="btn primary" id="downloadCV">Download CV</button></a>
+            <a href="#contact"><button class="btn secondary">Contact</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- Education Page -->
+      <div class="page education-page" id="education">
+        <div class="row">
+          <div class="column Education">
+            <div class="title">Education</div>
+            <div class="timeline">
+              <!-- Add Timeline Items Dynamically -->
+            </div>
+          </div>
+        </div> <!-- row -->
+      </div>
+      <!-- Work Experience Page -->
+      <div class="page experience-page" id="experience">
+        <div class="row">
+          <div class="tab-view-box Experience">
+            <div class="title">Work Experience</div>
+            <div class="tab-view">
+              <div class="tabs">
+                <div class="slider">
+                  <div class="indicator"></div>
+                </div>
+                <ul>
+                  <!-- li Loaded Dynamically -->
+                </ul>
+              </div>
+              <div class="content">
+                <!-- sections Loaded Dynamically -->
+              </div>
+            </div> <!-- Tab view -->
+          </div>
+        </div> <!-- row -->
+      </div>
+      <!-- Projects Page -->
+      <div class="page experience-page" id="project">
+        <div class="row">
+          <div class="tab-view-box Project">
+            <div class="title">Projects</div>
+            <div class="tab-view">
+              <div class="tabs">
+                <div class="slider">
+                  <div class="indicator"></div>
+                </div>
+                <ul>
+                  <!-- li Loaded Dynamically -->
+                </ul>
+              </div>
+              <div class="content">
+                <!-- sections Loaded Dynamically -->
+              </div>
+            </div> <!-- Tab view -->
+          </div>
+        </div> <!-- row -->
+      </div>
+      <!-- Skills Page -->
+      <div class="page skills-page" id="skills">
+        <div class="row">
+          <div class="column">
+            <div class="title">Skills</div>
+            <!-- Skills Loaded Dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Interests Page -->
+    <div class="page interest-page" id="interest">
+      <div class="row">
+        <div class="column interest">
+          <div class="title">Interests</div>
+          <div class="cards">
+            <div class="card-sm">Web Development</div>
+            <div class="card-sm">Game Design</div>
+            <div class="card-sm">
+              Application Design and Development
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div>
+
+    <!-- Awards & Achievements Page -->
+    <div class="page award-page" id="award">
+      <div class="row">
+        <div class="column award">
+          <div class="title">Achievements</div>
+          <div class="cards">
+            <div class="card-sm">Oracle Certification in Java 8 <a href="./resources/Oracle.pdf"
+                target="_blank">View</a></div>
+            <div class="card-sm">Salesforce Certification <a href="./resources/Salesforce.pdf" target="_blank">View</a>
+            </div>
+            <div class="card-sm">You Have Made the Difference <a href="./resources/Netcracker.pdf"
+                target="_blank">View</a></div>
+            <div class="card-sm">Certified as an RPA Developer <a href="./resources/RPA.pdf" target="_blank">View</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- row -->
+    </div>
+
+    <footer>
+      <div class="content">
+        <div class="main-text">
+          <div class="mailing" id="contact">
+            <h2 class="title">Get in Touch</h2>
+            <p>If you have any queries please drop a mail. I'll try my best to get back to you!</p>
+            <a class="email-link" href="mailto:ushmitharavilla998@gmail.com"> Say Hello</a>
+          </div>
+          <div class="license">
+            <span>
+              &copy; Copyright <strong><span><a href="https://github.com/uravilla/uravilla.github.io/blob/main/LICENSE" style="color:rgba(15, 13, 13, 0.828)">Ushmitha Ravilla @2022</a></span></strong>      
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

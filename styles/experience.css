@@ -1,0 +1,59 @@
+.row {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    min-width: 330px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    user-select: none;
+}
+
+.timeline-item {
+    padding: 0 0 20px 40px;
+    font-size: 1rem;
+    position: relative;
+}
+
+.timeline-item .year {
+    padding: 2px 12px;
+    border: 1px solid #aaa;
+    border-radius: 30px;
+    background-color: #fff;
+    position: relative;
+    left: -40px;
+    user-select: none;
+}
+
+.timeline-item .item-title {
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.timeline-item .text,
+.timeline-item .text1 {
+    font-size: 14px;
+}
+
+.timeline-item .text1 {
+    font-weight: 600;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 100%;
+    background-color: #f5f6f9;
+    width: 1px;
+    left: 15px;
+    bottom: 5px;
+}

@@ -1,0 +1,90 @@
+.skill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 16px;
+    cursor: default;
+}
+
+.skill-text {
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 0 5px;
+}
+
+.skill-perct {
+    color: var(--gray-light);
+    transition: all 0.4s ease-out;
+}
+
+.skill:hover .skill-perct {
+    color: var(--gray-dark);
+}
+
+.Player.mini .seek-bar {
+    padding: 0;
+}
+
+.duration,
+.fullDuration {
+    width: 40px;
+    text-align: center;
+}
+
+.progress-bar {
+    height: 10px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: #e0e0e0;
+}
+
+.progress-color {
+    background: #1389e9;
+    height: 100%;
+    width: var(--width);
+    border-radius: 30px;
+    transition: width 0.5s ease-out;
+}
+
+.skill:hover .progress-color {
+    animation: fill 0.75s ease-out forwards;
+}
+
+@keyframes fill {
+    from {
+        width: var(--width);
+    }
+
+    30% {
+        width: 10%;
+    }
+
+    to {
+        width: var(--width);
+    }
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-sm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    height: 30px;
+    padding: 4px 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    color: var(--gray);
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-sm:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}

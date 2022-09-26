@@ -1,0 +1,40 @@
+footer {
+    height: 40vh;
+    width: calc(100% + 140px);
+    background: var(--light-blue);
+    transform: translate(-70px, 60px);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+footer .content {
+    display: grid;
+    grid-template-rows: auto;
+    height: 100%;
+    align-items: center;
+}
+
+footer .main-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 14px;
+    height: 100%;
+    padding: 12px;
+}
+
+.main-text div {
+    text-align: center;
+}
+
+.main-text .license {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}

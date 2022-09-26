@@ -1,0 +1,112 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    padding-bottom: 0;
+    border-radius: 30px;
+    background: white;
+    z-index: 3;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.logo {
+    display: flex;
+    line-height: 46px;
+}
+
+.logo-symbol {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    background-color: var(--blue-bg);
+    border-radius: 100px;
+    text-align: center;
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo-text span {
+    font-weight: 400;
+}
+
+nav.main-nav {
+    display: flex;
+    line-height: 46px;
+    color: var(--gray-light);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0;
+    transition: transform 0.4s ease-out, opacity 0.2s ease-out;
+}
+
+nav.main-nav.open {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+nav li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li:first-child,
+nav li a:hover {
+    color: var(--gray-dark);
+}
+
+.bars {
+    display: none;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    cursor: pointer;
+    padding: 8px;
+    position: absolute;
+    right: 10px;
+    z-index: 3;
+    opacity: 0.5;
+}
+
+.top-bar .bars:hover {
+    opacity: 1;
+}
+
+.bars span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: var(--gray-dark);
+    transform: translate(0px, 0px) rotate(0deg);
+    transform-origin: 17% 50%;
+    margin-bottom: 5px;
+    transition: all 0.7s ease-out;
+}
+
+.bars.open span:first-child {
+    transform: translateX(00px) rotate(45deg);
+}
+
+.bars.open span:nth-child(2) {
+    transform: translateX(100vw) rotate(0deg);
+    transition: all 0.5s ease-in;
+}
+
+.bars.open span:last-child {
+    transform: translateX(00px) rotate(-45deg);
+}
