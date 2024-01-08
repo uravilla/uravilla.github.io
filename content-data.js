@@ -2,7 +2,7 @@ const workExperiences = {
     0: {
         year: 'May 2022 - present',
         title: 'Clemson University',
-        text: 'Graduate Teaching Assistant'
+        text: 'Graduate Assistant'
     },
     1: {
         year: 'Jul 2019 - Dec 2021',
@@ -12,25 +12,25 @@ const workExperiences = {
     2: {
         year: 'Jan 2019 - Jun 2019',
         title: 'Netcracker Technology Solutions Pvt Ltd',
-        text: 'Software Developer Intern'
+        text: 'Associate Software Developer'
     },
     3: {
-        year: 'Jan 2018 - Jun 2018',
+        year: 'Jan 2018 - Nov 2018',
         title: 'Amazon',
-        text: 'Project Mentee'
+        text: 'Web Developer'
     }
 }
 
 const Education = {
     0: {
-        year: '2022',
+        year: '2023',
         title: 'Clemson University',
         text: 'Masters in Computer Science.',
-        text1: '4.0 GPA'
+        text1: '3.9 GPA'
     },
     1: {
         year: '2019',
-        title: 'Keshav Memorial Institute of Technology',
+        title: 'Jawaharlal Nehru Institute of Technology',
         text: 'Bachelor of Technology, Computer Science and Engineering.',
         text1: '73%'
     }
@@ -43,7 +43,7 @@ const skills = {
     },
     1: {
         score: 90,
-        name: 'Python'
+        name: 'C#, .Net'
     },
     2: {
         score: 100,
@@ -75,7 +75,7 @@ const Experiences = {
     0: {
         year: 'May 2022 - present',
         name: 'Clemson University',
-        role: 'Graduate Teaching Assistant',
+        role: 'Graduate Assistant',
         texts: {
             text1: 'Graduate Teaching Assistant for Digital Imaging Course. Assisting Students with Audio and Video editing, Photography.',
             text2: '',
@@ -99,7 +99,7 @@ const Experiences = {
         year: 'Jan 2019 - Jun 2021',
         name: 'Netcracker Technology Solutions Pvt Ltd',
         abbr: 'Netcracker Technology',
-        role: 'Software Developer Intern',
+        role: 'Associate Software Developer',
         texts: {
             text1: 'Developed Applications as per user request for the core product Rating and Billing Manager.',
             text2: 'Coordinated workflow processes and wrote Junit tests for the new modules in the application.',
@@ -108,9 +108,9 @@ const Experiences = {
         }
     },
     3: {
-        year: 'Jan 2018 - Jun 2018',
+        year: 'Jan 2018 - Nov 2018',
         name: 'Amazon',
-        role: 'Project Mentee',
+        role: 'web Developer',
         texts: {
             text1: 'Built a web application for simplifying peer-to-peer selling for new or previously owned products like Fashion, mobile, books, and much more using Spring MVC, Hibernate frameworks. Holding additional Functionalities like in-app messaging, tracking the order, delivery, payments, and option to follow each other Users.',
             text2: 'Outcome: Gained experience in using Frameworks such as Spring, Hibernate',
