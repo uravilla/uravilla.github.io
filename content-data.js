@@ -77,8 +77,8 @@ const Experiences = {
         name: 'Clemson University',
         role: 'Graduate Assistant',
         texts: {
-            text1: 'Assisting Students with Web Design Audio and Video editing, Photography',
-            text2: '',
+            text1: 'Constructed a neural network model in Python for color correction, showcasing challenging Algorithm Complexity and achieving 90% Model Accuracy.',
+            text2: 'Assisting Students with Web Design Audio and Video editing, Photography',
             text3: '',
             text4: '',
         }
