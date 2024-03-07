@@ -77,7 +77,7 @@ const Experiences = {
         name: 'Clemson University',
         role: 'Graduate Assistant',
         texts: {
-            text1: 'Graduate Teaching Assistant for Digital Imaging Course. Assisting Students with Audio and Video editing, Photography.',
+            text1: 'Assisting Students with Web Design Audio and Video editing, Photography',
             text2: '',
             text3: '',
             text4: '',
